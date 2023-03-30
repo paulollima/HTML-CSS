@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: #FF4A17;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-style: oblique;
+}
+
+a{
+    color: gold;
+}
