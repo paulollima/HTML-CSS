@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulario </h1> 
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+        <!--label é utilizado para fazer a relação entre qual objeto de formulario e etiqueta-->
+        <!--quando usar get ou post
+            get: quando não for informações sensiveis ate 3k de letra (senha,cartão)
+            post: quando for mais sensivel, mais de 3k de bytes-->
+    </form>
+</body>
+</html>
