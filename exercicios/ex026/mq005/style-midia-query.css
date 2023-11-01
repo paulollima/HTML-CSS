@@ -1,0 +1,16 @@
+@charset "UFT-8";
+
+/* typical device breakpoints
+-----------------------------
+pequenas telas: ate 600px
+celular: de 600px ate 700px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768pxx) {
+    span#burguer {
+        display: none;
+    }
+}
